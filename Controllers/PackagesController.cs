@@ -21,7 +21,7 @@ namespace DevTrackR.API.Controllers
 
         // GET api/packages/1234-5678-1234-3212
        [HttpGet("{code}")]
-       public IActionResult GetByCode(string code, ){
+       public IActionResult GetByCode(string code){
            var package = new Package("Pacote 2", 0.2M);
            return Ok(package);
        }
@@ -29,7 +29,7 @@ namespace DevTrackR.API.Controllers
         //POST api/packages
        [HttpPost]
        public IActionResult Post(AddPackageInputModel model){ 
-           var package = new Package(model.Title, model.Weight)
+           var package = new Package(model.Title, model.Weight);
            return Ok();     
        }
 
@@ -40,7 +40,7 @@ namespace DevTrackR.API.Controllers
     //    } Deixar comentada, pois nesse caso não poderá fazer atualização de Título e peso.
 
         //POST api/packages/1234-5678-1234-3212
-       [HttpPost("{code}")]
+       [HttpPost("{code}/updates")]
        public IActionResult PostUpdate(string code, AddPackageUpdateInputModel model){ 
            return Ok();     
        }

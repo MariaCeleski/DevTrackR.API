@@ -12,6 +12,13 @@ public class Package
         Updates = new List<PackageUpdate>();
     }
 
+    public void AddUpdate(string status, bool delivered) {
+            Updates.Add(new PackageUpdate(status, Id));
+
+            if (delivered){
+                Delivered = true;
+            };
+    }
     public int Id { get; private set; }
     public String Code { get; private set; } 
     public string  Title { get; private set; }
