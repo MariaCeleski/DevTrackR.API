@@ -6,9 +6,7 @@ namespace DevTrackR.API.Entities
         {
             PackageId = packageId;
             Status = status;
-            UpdateDate = DateTime.Now;
-            
-
+            UpdateDate = DateTime.Now;         
         }
         
         public int Id { get; private set; }
