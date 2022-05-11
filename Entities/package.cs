@@ -1,8 +1,8 @@
 namespace DevTrackR.API.Entities;
 
-public class package
+public class Package
 {
-    public package(int title, decimal weight)
+    public Package(int title, decimal weight)
     {
         Code = Guid.NewGuid().ToString();
         Title = title;

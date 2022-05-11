@@ -1,5 +1,5 @@
+using DevTrackR.API.Entities;
 using Microsoft.AspNetCore.Mvc;
-
 namespace DevTrackR.API.Controllers
 {
     [ApiController]
@@ -9,7 +9,11 @@ namespace DevTrackR.API.Controllers
         //Get api/packages
         [HttpGet]
         public IActionResult GetAll() {
-             var packages = new List<Package>{};
+             var packages = new List<package>
+             {
+                 new Package("Pacote 1", 1.3M),
+                 new Package("Pacote 2", 0.2M)
+             };
  
            return Ok(packages);
         }
@@ -17,7 +21,18 @@ namespace DevTrackR.API.Controllers
         // GET api/packages/1234-5678-1234-3212
        [HttpGet("{code}")]
        public IActionResult GetByCode(string code){
-           return Ok();
+           var package = new Package("Pacote 2", 0.2M);
+           return Ok(package);
+       }
+        //POST api/packages
+       [HttpPost]
+       public IActionResult Post(){ 
+           return Ok();     
+       }
+        //PUT api/packages/1234-5678-1234-3212
+       [HttpPut("{code}")]
+       public IActionResult Put (){ 
+           return Ok();     
        }
     }
 }
