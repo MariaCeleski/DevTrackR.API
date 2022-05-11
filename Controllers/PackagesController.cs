@@ -6,8 +6,18 @@ namespace DevTrackR.API.Controllers
     [Route("api/packages")]
     public class PackagesController : ControllerBase
     {
+        //Get api/packages
+        [HttpGet]
         public IActionResult GetAll() {
-            return Ok();
+             var packages = new List<Package>{};
+ 
+           return Ok(packages);
         }
+
+        // GET api/packages/1234-5678-1234-3212
+       [HttpGet("{code}")]
+       public IActionResult GetByCode(string code){
+           return Ok();
+       }
     }
 }
