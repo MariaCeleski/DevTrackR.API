@@ -2,7 +2,7 @@ namespace DevTrackR.API.Entities;
 
 public class Package
 {
-    public Package(int title, decimal weight)
+    public Package(string title, decimal weight)
     {
         Code = Guid.NewGuid().ToString();
         Title = title;
@@ -14,7 +14,7 @@ public class Package
 
     public int Id { get; private set; }
     public String Code { get; private set; } 
-    public int  Title { get; private set; }
+    public string  Title { get; private set; }
     public decimal Weight  { get; private set; }
     public bool Delivered  { get; private set; }
     public DateTime PostedAt { get; private set; }
