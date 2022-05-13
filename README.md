@@ -15,3 +15,13 @@
 - Funcionalidades
 - Cadastro, Listagem, Detalhes de Pacote
 - Cadastro de Atualização de Pacote
+Pacotes instalados:
+- Install-Package Microsoft.EntityFrameworkCore.Design
+- Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+- Comandos do Migration executados para criação do banco:
+- dotnet user-secrets init
+- dotnet user-secrets set "ConnectionStrings:DevTrackRCs"
+- dotnet ef migrations add InitialMigrations -o Persistence/Migrations
+- dotnet ef database update
+ 

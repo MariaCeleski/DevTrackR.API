@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yon+rZpXOnpLQagKrH0ly4XdNXmnUVS8LqZPBrrHk5lWg+ia4VSt5xXfMDwOdB07hxMy88vDDcXPbQ8rI+6FMA==",
+  "dgSpecHash": "tMdR7+8y6CmjFEy356Kyh4ekoOPFgKspdhjyasmw43M0Fv+eMFqbDtVnpV+X2PafBVllqmDBFw0J1uExJYt9sA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\DevTrackR.API.csproj",
+  "projectFilePath": "C:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\DevTrackR.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tuca\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Tuca\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
