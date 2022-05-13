@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\DevTrackR.API.csproj": {}
+    "c:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\DevTrackR.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\DevTrackR.API.csproj": {
+    "c:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\DevTrackR.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\DevTrackR.API.csproj",
+        "projectUniqueName": "c:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\DevTrackR.API.csproj",
         "projectName": "DevTrackR.API",
-        "projectPath": "C:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\DevTrackR.API.csproj",
+        "projectPath": "c:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\DevTrackR.API.csproj",
         "packagesPath": "C:\\Users\\Tuca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\obj\\",
+        "outputPath": "c:\\Users\\Tuca\\Nova pasta\\workspace\\Luisdev\\DevTrackR.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tuca\\AppData\\Roaming\\NuGet\\NuGet.Config",
