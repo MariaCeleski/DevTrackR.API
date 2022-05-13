@@ -30,7 +30,7 @@ namespace DevTrackR.API.Controllers
        public IActionResult GetByCode(string code){
            var package = _context
                 .Packages
-                .SingleOrDefaul(p => p.Code == code);
+                .SingleOrDefault(p => p.Code == code);
 
             
            if (package == null) {
