@@ -1,8 +1,5 @@
 using DevTrackR.API.Persistence;
-using DevTrackR.API.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
-using SendGrid.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
